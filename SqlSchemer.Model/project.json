@@ -3,8 +3,7 @@
 
   "dependencies": {
     "NETStandard.Library": "1.6.0",
-    "SqlSchemer.Model": "1.0.0-*",
-    "SqlSchemer.Parser.Interfaces": "1.0.0-*"
+    "SqlSchemer.Model.Interfaces": "1.0.0-*"
   },
 
   "frameworks": {

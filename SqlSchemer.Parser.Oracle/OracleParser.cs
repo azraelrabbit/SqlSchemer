@@ -1,6 +1,7 @@
-﻿using System;
+﻿using SqlSchemer.Model;
 using SqlSchemer.Model.Interfaces;
 using SqlSchemer.Parser.Interfaces;
+using System;
 
 namespace SqlSchemer.Parser.Oracle
 {
@@ -8,7 +9,8 @@ namespace SqlSchemer.Parser.Oracle
     {
         public ISqlSchema ParseScript(string[] sqlSchemaScriptLines)
         {
-            throw new NotImplementedException();
+            if (sqlSchemaScriptLines == null) throw new ArgumentNullException(nameof(sqlSchemaScriptLines));
+            return new SqlSchema();
         }
     }
 }

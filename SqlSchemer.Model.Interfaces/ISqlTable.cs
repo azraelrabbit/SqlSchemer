@@ -6,11 +6,11 @@ namespace SqlSchemer.Model.Interfaces
     {
         ISqlTableMetadata Metadata { get; }
 
-        IEnumerable<ISqlTableField> Fields { get; }
+        IList<ISqlTableField> Fields { get; }
 
-        IEnumerable<ISqlTableField> PrimaryKey { get; }
+        IList<ISqlTableField> PrimaryKey { get; }
 
-        IEnumerable<IForeignKey> ForeignKeys { get; }
+        IList<IForeignKey> ForeignKeys { get; }
 
     }
 }

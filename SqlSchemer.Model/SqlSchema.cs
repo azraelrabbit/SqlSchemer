@@ -14,7 +14,7 @@ namespace SqlSchemer.Model
             }
         }
 
-        public IEnumerable<ISqlTable> Tables
+        public IList<ISqlTable> Tables
         {
             get
             {

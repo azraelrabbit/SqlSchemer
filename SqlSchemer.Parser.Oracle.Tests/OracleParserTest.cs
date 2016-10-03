@@ -15,10 +15,18 @@ namespace SqlSchemer.Parser.Oracle.Tests
         }
 
         [Fact]
-        public void Works()
+        public void ReturnsNotNullSchemaForValidScript()
         {
             var sqlSchemaScriptLines = sampleTable.Split('\n');
             Assert.NotNull(sut.ParseScript(sqlSchemaScriptLines));
+        }
+
+        [Fact]
+        public void ReturnsSchemaWithOneTableForValidScript()
+        {
+            var sqlSchemaScriptLines = sampleTable.Split('\n');
+            var schema = sut.ParseScript(sqlSchemaScriptLines);
+            Assert.Equal(1, schema.Tables.Count);
         }
 
 

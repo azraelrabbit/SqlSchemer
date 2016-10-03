@@ -6,6 +6,6 @@ namespace SqlSchemer.Model.Interfaces
     {
         ISqlSchemaMetadata Metadata { get; }
 
-        IEnumerable<ISqlTable> Tables { get; }
+        IList<ISqlTable> Tables { get; }
     }
 }

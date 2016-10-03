@@ -7,10 +7,15 @@ namespace SqlSchemer.Parser.Oracle
 {
     public sealed class OracleParser : ISqlSchemaParser
     {
+        public OracleParser() { }
+
         public ISqlSchema ParseScript(string[] sqlSchemaScriptLines)
         {
             if (sqlSchemaScriptLines == null) throw new ArgumentNullException(nameof(sqlSchemaScriptLines));
-            return new SqlSchema();
+
+            var sqlSchema = new SqlSchema();
+
+            return sqlSchema;
         }
     }
 }

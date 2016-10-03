@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SqlSchemer.Parser.Interfaces", "SqlSchemer.Parser.Interfaces\SqlSchemer.Parser.Interfaces.xproj", "{1CECBE5B-F693-4440-BA1C-E860E1F434A9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SqlSchemer.Parser.Oracle", "SqlSchemer.Parser.Oracle\SqlSchemer.Parser.Oracle.xproj", "{4BF8BD98-1FA8-4A6F-BDCE-8F0BC787F499}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SqlSchemer.Model.Interfaces", "SqlSchemer.Model.Interfaces\SqlSchemer.Model.Interfaces.xproj", "{6BAAE535-59E4-4D99-98B0-D7CC0F53BEA8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SqlSchemer.Parser.Model.Interfaces", "SqlSchemer.Parser.Model.Interfaces\SqlSchemer.Parser.Model.Interfaces.xproj", "{366FF6E1-6CF8-47FD-A15B-353D6599D350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CECBE5B-F693-4440-BA1C-E860E1F434A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CECBE5B-F693-4440-BA1C-E860E1F434A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CECBE5B-F693-4440-BA1C-E860E1F434A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CECBE5B-F693-4440-BA1C-E860E1F434A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF8BD98-1FA8-4A6F-BDCE-8F0BC787F499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF8BD98-1FA8-4A6F-BDCE-8F0BC787F499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF8BD98-1FA8-4A6F-BDCE-8F0BC787F499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF8BD98-1FA8-4A6F-BDCE-8F0BC787F499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAAE535-59E4-4D99-98B0-D7CC0F53BEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAAE535-59E4-4D99-98B0-D7CC0F53BEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAAE535-59E4-4D99-98B0-D7CC0F53BEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAAE535-59E4-4D99-98B0-D7CC0F53BEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{366FF6E1-6CF8-47FD-A15B-353D6599D350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366FF6E1-6CF8-47FD-A15B-353D6599D350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366FF6E1-6CF8-47FD-A15B-353D6599D350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366FF6E1-6CF8-47FD-A15B-353D6599D350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

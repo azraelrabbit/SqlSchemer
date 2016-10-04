@@ -4,7 +4,7 @@ namespace SqlSchemer.Model.Interfaces
 {
     public interface ISqlTable
     {
-        ISqlTableMetadata Metadata { get; }
+        string Name { get; }
 
         IList<ISqlTableField> Fields { get; }
 
